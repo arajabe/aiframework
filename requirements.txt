@@ -1,0 +1,15 @@
+langchain
+langgraph
+langchain-openai
+langchain-community
+langchain-core
+langchain-groq
+faiss-cpu
+streamlit
+tavily-python
+mysql.connector
+typing
+fastapi
+pydantic
+requests
+uuid 
