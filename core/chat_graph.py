@@ -7,7 +7,7 @@ import os
 class ChatState(TypedDict):
     messages: List
 
-llm = ChatGroq(model="gemma2-9b-it", api_key="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")
+llm = ChatGroq(model="gemma2-9b-it", api_key="")
 
 def chatbot_node(state: ChatState) -> ChatState:
     response = llm(state["messages"])
