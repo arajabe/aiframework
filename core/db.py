@@ -1,7 +1,11 @@
 import mysql.connector
 
 def get_db_connection():
-    mysql.connector.connect(host = "127.0.0.1", user = 'root', password = 'Nannilam@123', database = 'testdb')
+    mysql.connector.connect(
+        host="127.0.0.1",
+        user="root",
+        password="Nannilam@123",  # Change this
+        database="testdb")
 
 def save_message(session_id:str, sender:str, message:str):
     connection = get_db_connection()
